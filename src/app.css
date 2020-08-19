@@ -1,0 +1,38 @@
+body {
+    background-color:black;
+    color: white;
+    padding: 20px 0;
+    font-family: 'Do Hyeon';
+}
+.App {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+}
+
+.title{
+    font-size: 54px;
+}
+.button {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    text-orientation: sideways-right;
+}
+
+li {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: red;
+}
+input[placeholder] {
+    color: black;
+}
